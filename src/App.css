@@ -1,0 +1,22 @@
+body {
+  background: #000;
+}
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin: 0 auto;
+  color: #fff;
+  padding: 3rem;
+  border: 3px solid white;
+}
+.btn-send {
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 1300px) {
+  .App {
+    width: 100%;
+  }
+}
